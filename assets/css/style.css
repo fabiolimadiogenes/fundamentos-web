@@ -1,0 +1,95 @@
+/*
+Estilos da pagina index.html
+*/
+
+body {
+    background-color: #2d3436;
+    
+   
+  }
+
+#p1 {
+    font-size: 20px;
+    
+}
+
+.main_text_color{
+    color: #a1a1a1;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap; /*row para ser em linha, wrap para quebrar a linha*/
+    justify-content: center; /*para definir a posição/alinhamento horizontal do objeto*/
+    align-items: center; /*definir posição/alinhamento verticalmente*/
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+
+#menu li a{
+    text-decoration: none;
+    color: #a1a1a1
+}
+
+#menu li a:hover{
+    color: cadetblue;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.p-logo_inicio{
+    padding: 20px;
+}
+
+.wh-200{
+    width: 854px;
+    height: 480px;
+}
+
+.link_canal a{
+    text-decoration: none;
+    color:cornflowerblue;
+}
+
+.link_canal a:hover{
+    color:darkgrey;
+}
+
+.ico_social{
+    width: 30px;
+    height: 30px;
+}
+
+.p-ico{
+    padding: 10px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
+/*
+Estilos da pagina contato.html
+*/
